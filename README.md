@@ -1,3 +1,22 @@
+# StarSRGAN-ANCHI
+
+本倉庫為 [kynthesis/StarSRGAN](https://github.com/kynthesis/StarSRGAN) 的 fork 並整合 [KAIR](https://github.com/cszn/KAIR)，用於進行多場景超解析研究。目標為比較不同資料集（人臉、車牌、自然場景等）下的表現，找出 StarSRGAN 最佳應用情境。
+
+## 功能特色
+- 整合 KAIR 架構，便於自定義與訓練
+- 可用於 DIV2K / CelebA / LFW / 自製數據集的超解析任務
+- 評估指標支援 PSNR、SSIM、自動批次統計與 CSV 匯出
+
+## 使用說明
+請參考 `train_*.py` 和 `test_*.py` 檔案以進行訓練與測試。
+
+## 授權
+本專案以 [Apache 2.0 License](LICENSE) 授權，源自 [kynthesis/StarSRGAN](https://github.com/kynthesis/StarSRGAN) 與 [cszn/KAIR](https://github.com/cszn/KAIR)。
+
+
+
+
+
 # StarSRGAN: Improving Real-World Blind Super-Resolution
 Official PyTorch Implementation of [StarSRGAN: Improving Real-World Blind Super-Resolution](https://arxiv.org/abs/2307.16169)
 
