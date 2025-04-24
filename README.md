@@ -13,7 +13,15 @@
 ## 授權
 本專案以 [Apache 2.0 License](LICENSE) 授權，源自 [kynthesis/StarSRGAN](https://github.com/kynthesis/StarSRGAN) 與 [cszn/KAIR](https://github.com/cszn/KAIR)。
 
+倉庫說明：這個版本是以 StarSRGAN 為基礎，搭配 DIV2K 資料集進行超解析訓練。
 
+使用方式：簡單寫出如何使用 Colab 進行訓練。
+
+訓練參數：簡要描述 train_StarSRGAN_1M.yml 中的重要設定。
+
+資料來源：如 DIV2K 的連結或下載說明。
+
+研究目的或應用場景：例如「比較不同資料集在 StarSRGAN 下的效果差異」。
 
 
 
